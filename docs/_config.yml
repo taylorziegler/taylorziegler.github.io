@@ -27,9 +27,12 @@ url: "https://taylorziegler.github.io/" # the base hostname & protocol for your 
 github_username:  taylorziegler
 
 # Build settings
-theme: jekyll-theme-tactile
+theme: minima
 plugins:
   - jekyll-feed
+include:
+ - _posts
+ - _layouts
 
 
 # Exclude from processing.
